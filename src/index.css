@@ -1,0 +1,120 @@
+:root {
+  font-family: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  line-height: 1.5;
+  color: #12141a;
+  background: #f4f1ea;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  color: #1c3d5a;
+}
+
+code {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.9em;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+.layout {
+  max-width: 52rem;
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem 3rem;
+}
+
+.layout header {
+  border-bottom: 1px solid #d7d0c4;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.layout h1 {
+  margin: 0 0 0.25rem;
+  font-size: 1.35rem;
+}
+
+.muted {
+  color: #5c5a54;
+  margin: 0;
+}
+
+nav.pattern-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  margin: 0.75rem 0 0;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #d7d0c4;
+  padding: 1rem 1.1rem;
+  margin: 0.75rem 0;
+}
+
+.card h2,
+.card h3 {
+  margin-top: 0;
+}
+
+.tabs-list {
+  display: flex;
+  gap: 0.35rem;
+  margin-bottom: 0.75rem;
+}
+
+.tabs-list button[aria-selected='true'] {
+  background: #1c3d5a;
+  color: #fff;
+  border-color: #1c3d5a;
+}
+
+.tabs-list button {
+  border: 1px solid #c9c2b5;
+  background: #fff;
+  padding: 0.35rem 0.7rem;
+}
+
+.field {
+  display: grid;
+  gap: 0.25rem;
+  margin: 0.6rem 0;
+}
+
+.field input {
+  padding: 0.4rem 0.5rem;
+  border: 1px solid #c9c2b5;
+}
+
+.error {
+  color: #8a1f1f;
+}
+
+.ok {
+  color: #1b5c38;
+}
+
+ul.catalog {
+  padding-left: 1.1rem;
+}
+
+.banner {
+  border: 1px solid #c9c2b5;
+  padding: 0.75rem 1rem;
+  background: #fff;
+}
